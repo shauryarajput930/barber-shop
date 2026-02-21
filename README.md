@@ -2,7 +2,7 @@
 
 A modern, responsive barber shop website built with HTML, CSS, and JavaScript.
 
-**Created by:** [Your Name]  
+**Created by:** Shaurya  
 **Project:** Barber Shop Website  
 **Date:** February 2026
 
@@ -236,6 +236,6 @@ For questions or support:
 
 **Built with ❤️ for modern barber shops**
 
-**Developer:** [Shaurya Rajput]  
-**Email:** [shauryarajput930@gmail.com]  
-**Portfolio:** [shauryarajput.in]
+**Developer:** Shaurya Rajput
+**Email:** shauryarajput930@gmail.com
+**Portfolio:** shauryarajput.in
