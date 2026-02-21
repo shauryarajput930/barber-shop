@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium barber shop in Manhattan offering comprehensive grooming services, unique products, and crafted cocktails.">
+    <meta name="keywords" content="barber shop, manhattan, grooming, haircut, shave, men's salon">
+    <meta name="author" content="Barber Shop">
+    <meta property="og:title" content="Barber Shop - Best Barbershop in Manhattan">
+    <meta property="og:description" content="Premium barber shop offering comprehensive grooming services in Manhattan, New York.">
+    <meta property="og:type" content="website">
+    <title>Barber Shop - Best Barbershop in Manhattan</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <header role="banner">
+        <nav class="container navbar" role="navigation" aria-label="Main navigation">
+            <div class="logo" role="img" aria-label="Barber Shop Logo">BARBER</div>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-links">
+                <li><a href="#home" aria-current="page">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#services">PAGES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            
+            <button class="book-btn" aria-label="Book an appointment">Book an appointment</button>
+        </nav>
+    </header>
+
+        <!-- Scroll to Top Button -->
+        <button class="scroll-to-top" aria-label="Scroll to top" style="display: none;">
+            <span>↑</span>
+        </button>
+        
+        <!-- Loading Screen -->
+        <div class="loading-screen" id="loadingScreen">
+            <div class="loading-spinner"></div>
+            <p>Loading Barber Shop...</p>
+        </div>
+        <main>
+        <section class="hero" id="home" role="banner">
+            <div class="hero-content">
+                <h1>CONTACT US</h1>
+            </div>
+        </section>
+
+        <section class="welcome container" id="about">
+            <h2>Welcome to Manhattan's<br>Premier Barbershop</h2>
+            
+            <div class="info-section">
+                <div class="shop-logo">
+                    <img src="./assets/logo.png" alt="Barber Shop Logo" loading="lazy" width="200" height="200">
+                </div>
+                
+                <div class="hours-section">
+                    <p><a href="tel:+901234563211" aria-label="Call us">+90 123 456 32 11</a></p>
+                    <h3>Working Hours <span class="hours-status"></span></h3>
+                    <table class="hours-table" role="table">
+                        <tbody>
+                            <tr>
+                                <td>MON-THU</td>
+                                <td>09:00 - 19:00</td>
+                            </tr>
+                            <tr>
+                                <td>SAT-SUN</td>
+                                <td>09:00 - 19:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="services-note">* Comprehensive Barber Services * Gift Packages * Unique Grooming Products * Juniper *<br>Crafted Cocktails * Visa/MasterCard/Amex, Images from Freepik</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery container" id="services" aria-label="Gallery">
+            <h2 class="sr-only">Our Gallery</h2>
+            <div class="gallery-container" role="region" aria-label="Image gallery">
+                <div class="gallery-item" style="background-image: url('./assets/1.avif');" role="img" aria-label="Gallery image 1"></div>
+                <div class="gallery-item" style="background-image: url('./assets/2.png');" role="img" aria-label="Gallery image 2"></div>
+                <div class="gallery-item" style="background-image: url('./assets/3.jpg');" role="img" aria-label="Gallery image 3"></div>
+                <div class="gallery-item" style="background-image: url('./assets/4.webp');" role="img" aria-label="Gallery image 4"></div>
+            </div>
+            <div class="nav-arrows" role="navigation" aria-label="Gallery navigation">
+                <button class="gallery-prev" aria-label="Previous image">←</button>
+                <button class="gallery-next" aria-label="Next image">→</button>
+            </div>
+        </section>
+
+        <!-- Services Pricing Section -->
+        <section class="services-section container" id="services-pricing">
+            <h2>Our Services & Pricing</h2>
+            <p class="services-intro">Premium grooming services at competitive prices</p>
+            
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>Classic Cut</h3>
+                        <div class="price">$25</div>
+                    </div>
+                    <ul class="card-features">
+                        <li>✓ Professional Haircut</li>
+                        <li>✓ Wash & Style</li>
+                        <li>✓ 15 minutes</li>
+                        <li>✓ Consultation</li>
+                    </ul>
+                    <button class="card-btn">Book Now</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="card-badge">Popular</div>
+                    <div class="card-header">
+                        <h3>Gentleman's Package</h3>
+                        <div class="price">$45</div>
+                    </div>
+                    <ul class="card-features">
+                        <li>✓ Premium Haircut</li>
+                        <li>✓ Hot Towel Shave</li>
+                        <li>✓ Beard Trim</li>
+                        <li>✓ 45 minutes</li>
+                        <li>✓ Complimentary Drink</li>
+                    </ul>
+                    <button class="card-btn">Book Now</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>Executive Treatment</h3>
+                        <div class="price">$65</div>
+                    </div>
+                    <ul class="card-features">
+                        <li>✓ Signature Haircut</li>
+                        <li>✓ Luxury Shave</li>
+                        <li>✓ Hair Treatment</li>
+                        <li>✓ Scalp Massage</li>
+                        <li>✓ 60 minutes</li>
+                        <li>✓ Premium Products</li>
+                    </ul>
+                    <button class="card-btn">Book Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Testimonials Section -->
+        <section class="testimonials-section container" id="testimonials">
+            <h2>What Our Clients Say</h2>
+            <p class="testimonials-intro">Real reviews from satisfied customers</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Excellent service! The staff is professional and the atmosphere is amazing. Best haircut I've had in years!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4>John Doe</h4>
+                            <span>⭐⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Great experience from start to finish. The hot towel shave was incredible, and the attention to detail is unmatched."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MS</div>
+                        <div class="author-info">
+                            <h4>Mike Smith</h4>
+                            <span>⭐⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Been coming here for years. Consistently great service, fair prices, and they always remember my preferences."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RJ</div>
+                        <div class="author-info">
+                            <h4>Robert Johnson</h4>
+                            <span>⭐⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The gentleman's package is worth every penny. Luxury treatment at its finest. Highly recommend!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">TC</div>
+                        <div class="author-info">
+                            <h4>Tom Chen</h4>
+                            <span>⭐⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section container" id="contact">
+            <div class="contact-image" role="img" aria-label="Contact background image"></div>
+            <div class="contact-form">
+                <h2>Get In Touch</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                <form class="form-container" action="#" method="POST" novalidate>
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your Name" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter a valid email address" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message" required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="location-section container" aria-label="Location information">
+            <div class="location-logo">
+                <img src="./assets/logo.png" alt="Barber Shop Logo" loading="lazy" width="150" height="150">
+                <p>Full service barber shops & men's<br>grooming in Manhattan, New York. Logo<br>from Freepik</p>
+                <div class="location-hours">
+                    <table class="hours-table" role="table">
+                        <tbody>
+                            <tr>
+                                <td>MON-THU</td>
+                                <td>09:00 - 19:00</td>
+                            </tr>
+                            <tr>
+                                <td>SAT-SUN</td>
+                                <td>09:00 - 19:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="location-info">
+                <h3>Location</h3>
+                <address>
+                    <p>17 Green St, New York,</p>
+                    <p>NY 10002, USA</p>
+                </address>
+                <p><a href="mailto:support@barbershop.com" aria-label="Email us">support@barbershop.com</a></p>
+                <p><a href="tel:+1800123456789" aria-label="Call us">+1 (800) 123 456 789</a></p>
+            </div>
+            
+            <div class="whatsapp-section">
+                <div class="whatsapp-icon">
+                    <img src="./assets/WhatsApp.png" alt="WhatsApp Icon" loading="lazy" width="60" height="60">
+                </div>
+                <h3>Questions?</h3>
+                <p>Add us on WhatsApp & send<br>queries for instant reply.</p>
+                <a href="tel:+1234567889089" class="whatsapp-btn" aria-label="Contact us on WhatsApp">+12-345-678-89089</a>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <nav class="social-icons" role="navigation" aria-label="Social media links">
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="X (Twitter)">X</a>
+                <a href="#" aria-label="LinkedIn">in</a>
+            </nav>
+            <p>&copy; 2025 Barber Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
